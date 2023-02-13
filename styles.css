@@ -1,2 +1,114 @@
 
 /* Your CSS Code here. */
+.margin{
+	border: 1px solid black;
+	height:400px;
+	width:600px;
+	position:relative;
+	
+	padding-left: 25px;
+    padding-top: 7px;
+/* 	padding:20px; */
+	
+	
+}
+.border{
+	position: absolute;
+/* 	height:200px;
+	width:200px; */
+	padding:10px;
+	top:40px;
+	left:40px;
+	right:50px;
+	bottom:40px;
+/* 	background-color:#4724c7; */
+	background-color:#604bd7;
+}
+
+.padding{
+	position:absolute;
+	background-color:#35cdc2;
+	padding:10px;
+	top:40px;
+	left:40px;
+	right:50px;
+	bottom:40px;
+	
+}
+.pos{
+	position:absolute;
+	right:13px;
+}
+.cont{
+	position:absolute;
+	padding:10px;
+	top:40px;
+	left:40px;
+	right:50px;
+	bottom:40px;
+	border: 1px solid black;
+}
+.lines{
+	border: 1px solid black;
+	position:absolute;
+	left:10px;
+	right:10px;
+	bottom:19px;
+}
+
+.width{
+	position:absolute;
+	left:127px;
+	bottom:11px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:#35cdc2;
+}
+
+.arrow1 {
+  border: solid black;
+	position:absolute;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+	right:10px;
+	bottom:11px;
+  padding: 8px;
+}
+
+.right {
+	position:absolute;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 8px;
+	position:absolute;
+	bottom:11px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.content{
+	border: dashed black 1px;
+	padding:2px;
+	position:absolute;
+	right:10px;
+	left:10px;
+	top:30px;
+}
+
+
+
+
+
+
+
+
+
